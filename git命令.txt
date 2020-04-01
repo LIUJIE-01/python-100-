@@ -1,0 +1,19 @@
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+顾名思义，这是设置你的名字和Email地址。
+我们可以查看一下用户名和密码：
+
+通过如下命令把这个目录变成Git可以管理的仓库
+git init
+用 git add 命令，把文件添加到仓库
+git add readme.txt
+用 git commit 命令，把文件提交到仓库：
+git commit -m "wrote a readme file"  //-m后面输入的是本次提交的说明，可以输入任意内容。
+
+
+
+
+git add “文件”
+git commit -m "版本讯息"
+git push origin master //真正上传
+'git push origin +master:master//强制更新
